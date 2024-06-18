@@ -1,8 +1,14 @@
+import Header from "../components/header/Header";
+import Main from "../components/main/Main";
+import Footer from "../components/footer/Footer";
+
 const Library = () => {
     return (
-        <div>
-            <h1>Library</h1>
-        </div>
+        <>
+            <Header />
+            <Main />
+            <Footer />
+        </>
     )
 };
 
