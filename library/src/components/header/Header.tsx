@@ -6,7 +6,7 @@ const Header = () => {
         <header>
             <div className="container">
                 <div className="header-wrapper">
-                <div className="header-logo">Brooklyn Public Library</div>
+                <h1 className="header-logo">Brooklyn Public Library</h1>
                 <div className="header-nav">
                     <ul className="nav-list">
                         <li className="nav-item"><a href="#about">About</a></li>

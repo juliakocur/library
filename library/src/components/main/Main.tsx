@@ -1,7 +1,11 @@
+import Welcome from "./welcome/Welcome";
+
 const Main = () => {
     return (
         <main>
-            <div className="container">main</div>
+            <div className="container">
+                <Welcome />
+            </div>
         </main>
     )
 }
