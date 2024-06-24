@@ -43,3 +43,25 @@ body {
     max-width: 1440px;
     width: 100%;
 }
+
+.section-header {
+    position: relative;
+    display: inline-block;
+    color: var(--black-color);
+    font-family: Forum;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    padding: 20px 0 40px 0;
+    margin: 0 auto;
+}
+
+.section-header::after {
+    content: '';
+    position: absolute;
+    background: var(--black-color);
+    width: 50px;
+    height: 1px;
+    left: 30px;
+    top: 80px;
+}
