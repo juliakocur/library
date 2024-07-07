@@ -26,6 +26,10 @@ a {
     }
 }
 
+li {
+    list-style-type: none;
+}
+
 body {                      
     display: flex;
     width: 100vw;
@@ -62,6 +66,6 @@ body {
     background: var(--black-color);
     width: 50px;
     height: 1px;
-    left: 30px;
+    left: 30%;
     top: 80px;
 }

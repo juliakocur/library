@@ -1,0 +1,140 @@
+.favorites {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white-color);
+    color: var(--black-color);
+    padding: 0 20px;
+}
+
+.favorites-pick {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24.2px;
+}
+
+.favorites-circle {
+    margin: 3px 3px 0 0;
+}
+
+.favorites-buttons {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24.2px;
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.favorites-button-container {
+    display: flex;
+    gap: 20px;
+}
+
+input:checked {
+    background: radial-gradient(circle at center, black 0%, black 50%, transparent 50%);
+}
+
+input:checked + label {
+    font-weight: bold;
+}
+
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    border: 2px solid black;
+    transition: 0.2s all linear;
+    outline: none;
+}
+
+.favorites-item {
+    width: 355px;
+    height: 520px;
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 175px 20px 20px;
+    gap: 20px;
+}
+
+.favorites-books {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 40px 240px;
+   padding: 0;
+   margin: 20px 0 40px 0;
+}
+
+.item-header {
+    position: relative;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+
+.item-header::after {
+    content: '';
+    position: absolute;
+    background: var(--beige-color);
+    width: 50px;
+    height: 1px;
+    left: 0;
+    top: 40px;
+}
+
+.item-book {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+
+.item-name {
+    text-transform: uppercase;
+}
+
+.item-description {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+
+.button-book {
+    position: absolute;
+    background-color: var(--white-color);
+    width: 75px;
+    height: 30px;
+    line-height: 12.1px;
+    letter-spacing: 2px;
+    bottom: 15px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.button-book:hover {
+    background-color: var(--beige-color);
+    transition: all .3s;
+    border-color: var(--beige-color);
+}
+
+.favorites-book {
+    position: relative;
+}
+
+.img-wrapper {
+    position: absolute;
+    max-width: 200px;
+    max-height: 300px;
+    bottom: -1px;
+    right: -40px;
+}

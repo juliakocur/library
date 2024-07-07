@@ -1,7 +1,7 @@
 import './About.css';
-import image1 from '../../../assets/slider/image1.png';
-import image2 from '../../../assets/slider/image2.png';
-import image3 from '../../../assets/slider/image3.png';
+import image1 from '../../../shared/assets/slider/image1.png';
+import image2 from '../../../shared/assets/slider/image2.png';
+import image3 from '../../../shared/assets/slider/image3.png';
 
 const About = () => {
     return (

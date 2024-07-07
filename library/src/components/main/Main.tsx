@@ -1,5 +1,6 @@
 import Welcome from "./welcome/Welcome";
 import About from "./about/About";
+import Favorites from "./favorites/Favorites";
 
 const Main = () => {
     return (
@@ -7,6 +8,7 @@ const Main = () => {
             <div className="container">
                 <Welcome />
                 <About />
+                <Favorites />
             </div>
         </main>
     )

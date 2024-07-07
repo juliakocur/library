@@ -1,5 +1,5 @@
 import './Header.css';
-import icon_profile from '../../assets/icon_profile.svg';
+import icon_profile from '../../shared/assets/icon_profile.svg';
 
 const Header = () => {
     return (
