@@ -1,0 +1,42 @@
+.shop {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white-color);
+    color: var(--black-color);
+    padding: 0 20px;
+}
+
+.shop-text {
+    font-family: Inter;
+    text-align: center;
+    line-height: 40px;
+    letter-spacing: 2px;
+    padding: 0;
+    margin: 20px 0 40px 0;
+}
+
+.shop-menu {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.left-menu,
+.right-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.right-menu {
+    align-items: end;
+}
+
+.left-menu-tittle,
+.right-menu-tittle {
+    font-family: Forum;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    color: var(--beige-color);
+}
