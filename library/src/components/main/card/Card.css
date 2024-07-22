@@ -1,0 +1,146 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white-color);
+    color: var(--black-color);
+    padding: 0 20px 40px 20px;
+}
+
+.card-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.card-find {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-find-tittle {
+    margin-bottom: 30px;
+    font-family: Inter;
+    font-size: 30px;
+    line-height: 36.31px;
+    letter-spacing: 1px;
+}
+
+.card-form,
+.card-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-form {
+    width: 558px;
+    height: 322px;
+    border: 2px solid var(--beige-color);
+    padding: 20px 20px 40px 20px;
+}
+
+.card-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: var(--beige-color);
+}
+
+.input-button {
+    width: 242px;
+    height: 44px;
+    margin-top: 20px;
+    background-color: transparent;
+    border: 1px solid var(--black-color);
+    text-align: center;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24.2px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all .5s;
+    &:hover {
+        background-color: var(--beige-color);
+        border: 1px solid var(--beige-color);;
+      }
+}
+
+.card-form-subtittle {
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: 1px; 
+}
+
+.card-form-subtittle,
+.input-name,
+.input-number {
+    margin: 10px 20px;
+}
+
+.input-name,
+.input-number {
+    width: 472px;
+    height: 50px;
+    background-color: var(--white-color);
+    border-radius: 10px;
+    border-color: transparent;
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: 2px;
+    padding: 8px 20px;
+    color: var(--beige-color);
+}
+
+.card-get {
+    max-width: 456px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: start;
+    text-align: right;
+    gap: 35px;
+}
+
+.card-get-tittle {
+    font-size: 30px;
+    line-height: 33.12px;
+}
+
+.card-get-text {
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 40px;
+    margin: 0;
+}
+
+.card-get-signup,
+.card-get-login {
+    width: 75px;
+    height: 30px;
+    margin-left: 20px;
+    background-color: transparent;
+    border: 1px solid var(--black-color);
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12.1px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all .5s;
+    &:hover {
+        background-color: var(--beige-color);
+        border: 1px solid var(--beige-color);;
+      }
+}
+
