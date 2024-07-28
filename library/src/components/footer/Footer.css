@@ -1,0 +1,59 @@
+.footer-wrapper {
+    height: 250px;
+    background-color: var(--black-color);
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.footer-data {
+    display: flex;
+    justify-content: space-between;
+    font-family: Inter;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+.footer-address {
+    width: 229px;
+    height: 40px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.footer-hours {
+    width: 149px;
+    height: 40px;
+    text-align: right;
+}
+
+.footer-weekdays,
+.footer-weekends {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.footer-icons {
+    width: 102px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.footer-line {
+    height: 1px;
+    width: 100%;
+}
+
+.footer-rss {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Inter;
+    line-height: 20px;
+    letter-spacing: 2px;
+}
+
