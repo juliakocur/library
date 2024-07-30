@@ -1,0 +1,26 @@
+.menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+  
+.menu-item-name,
+.menu-item-price {
+    font-family: Inter;
+    font-size: 20px;
+    color: #000;
+    letter-spacing: 2px;
+}
+  
+.menu-item-line {
+    width: 100px;
+    height: 1px;
+    background-color: var(--beige-color);
+}
+  
+.menu-item-price-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
