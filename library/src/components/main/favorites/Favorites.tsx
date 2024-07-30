@@ -6,7 +6,7 @@ const SeasonButtons: TypeSeasons[] = ['Winter', 'Spring', 'Summer', 'Autumn'];
 
 const Favorites = () => {
     return (
-        <section className="favorites">
+        <section className="favorites" id="favorites">
             <h2 className="section-header">Favorites</h2>
             <p className="favorites-pick">Pick favorites of seasone</p>
             <div className="favorites-buttons">

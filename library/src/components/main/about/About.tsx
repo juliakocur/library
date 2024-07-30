@@ -5,7 +5,7 @@ import image3 from '../../../shared/assets/slider/image3.png';
 
 const About = () => {
     return (
-        <section className="about">
+        <section className="about" id="about">
             <h2 className="section-header">About</h2>
             <p className="about-text">The Brooklyn Library is a free workspace, a large number of books and a cozy coffee shop inside</p>
             <div className="about-slider">

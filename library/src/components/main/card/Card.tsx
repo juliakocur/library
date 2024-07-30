@@ -2,7 +2,7 @@ import './Card.css';
 
 const Card = () => {
     return (
-        <section className="card">
+        <section className="card" id="card">
             <h2 className="section-header">Digital Library Cards</h2>
             <div className="card-wrapper">
                 <div className="card-find">

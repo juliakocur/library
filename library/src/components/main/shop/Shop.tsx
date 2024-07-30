@@ -5,7 +5,7 @@ import Menu from './Menu';
 
 const Shop = () => {
     return (
-        <section className="shop">
+        <section className="shop" id="shop">
             <h2 className="section-header">Coffee Shop</h2>
             <p className="shop-text">In our library, we have of cozy coffee shop, welcoming in customers with frothy cappuccinos and friendly conversation. 
             you can get a favorite book and read in coffee shop. Our barista to cook you best coffee, and also you can try desserts from bakery.</p>
