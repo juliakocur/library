@@ -1,0 +1,40 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--white-color);
+}
+
+.about-text {
+    font-family: Inter;
+    color: var(--black-color);
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.about-slider {
+    display: flex;
+    gap: 25px;
+}
+
+.pagination {
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination-wrapper {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination-button {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: var(--black-color);
+}

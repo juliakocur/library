@@ -1,0 +1,48 @@
+.contacts {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white-color);
+    color: var(--black-color);
+    padding: 0 20px 20px 20px;
+}
+
+.contacts-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.contacts-tittle,
+.contacts-tittle-director {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+
+.contacts-tittle li:first-child {
+    margin-top: 20px;
+}
+
+.contacts-tittle li:last-child {
+    margin-bottom: 40px;
+}
+
+.contacts-map {
+    width: 696px;
+    height: 414px;
+    border: 0;
+}
+
+.contacts-item a {
+    color: var(--black-color);
+}
+
+.contacts-item {
+    font-weight: 400;
+}
